@@ -4,7 +4,6 @@ public class Occur {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
         char ch=sc.next().charAt(0);
-        //char c=sc.next().charAt(0);
         int res= s.indexOf(ch);
         int r=s.lastIndexOf(ch);
         System.out.println("Index first is: " + res);
